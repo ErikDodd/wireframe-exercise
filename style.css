@@ -1,48 +1,73 @@
 
 header {
     display: flex;
-    flex-direction: row;
     justify-content: left;
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
     font-size: 25px;
+    row-gap: 30px;
 }
 
-ul, li {
-    display: inline-block
+ul {
+    display:flex;
+    justify-content: space-between;
+    width: 760px;
+     padding-inline-start: 0px;
+}
+
+ li {
+    display: inline-block;
 }
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.hero {
-    margin-top: 100px;
-    column-gap: 0px;
     row-gap: 30px;
 }
+
 
 .Sub-Banner {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    width: 100%;
+    justify-content: space-evenly;
+    width: 960px;
 }
 
 .Featured-Section-Banner {
     display: flex;
-    flex-direction: row;
+    justify-content: space-evenly;
+    width: 960px;
+
+}
+
+
+.Featured-Section-Banner-Text {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    justify-content: stretch;
+}
+
+#Featured-Section-Image {
+    /* width: 480px;
+    height: 400px; */
+    width: 50%;
+    height: 50%;
+}
+
+p {
+    width: 50%;
+    font-size: 20px;
 }
 
 .Call-To-Action {
     background-color: grey;
     font-size: 12px;
     border-radius: 8px;
-    transition-duration: 0.5s;
+    transition-duration: 350ms;
+    display: block;
 }
 
 .Call-To-Action:hover {
