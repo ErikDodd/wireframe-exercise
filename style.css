@@ -31,13 +31,13 @@ main {
 .Sub-Banner {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 960px;
 }
 
 .Featured-Section-Banner {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 960px;
 
 }
@@ -47,7 +47,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    justify-content: stretch;
+    
 }
 
 #Featured-Section-Image {
@@ -58,8 +58,15 @@ main {
 }
 
 p {
+    display: flex;
+    justify-content: center;
     width: 50%;
     font-size: 20px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
 }
 
 .Call-To-Action {
@@ -68,6 +75,7 @@ p {
     border-radius: 8px;
     transition-duration: 350ms;
     display: block;
+    width: 200px;
 }
 
 .Call-To-Action:hover {
